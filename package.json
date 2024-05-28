@@ -1,0 +1,23 @@
+{
+  "name": "segunda-pre-entrega-backend",
+  "version": "1.0.0",
+  "description": "Segunda pre entrega Backend Coderhouse ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DiegoHerreraGre/segunda-pre-entrega-backend.git"
+  },
+  "author": "Diego Herrera Gre",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DiegoHerreraGre/segunda-pre-entrega-backend/issues"
+  },
+  "homepage": "https://github.com/DiegoHerreraGre/segunda-pre-entrega-backend#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "handlebars": "^4.7.8"
+  }
+}
