@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "allowJs": true, // Permite archivos JS en el proyecto
+    "checkJs": true, // Opcional: Habilita la verificación de errores en archivos JS
+    "baseUrl": "../client",
+    "outDir": "../build",
+    "paths": {
+      "@/*": ["./*"]
+    }
+  },
+  "include": [
+    "../client/**/*" // Incluye tanto archivos .ts como .js en src
+  ],
+  "exclude": [
+    "../client/node_modules",
+    "../client/**/*.spec.ts"
+  ]
+}
+
