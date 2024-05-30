@@ -1,6 +1,6 @@
-import express from "express";
+import { Router } from "express";
 
-const cart = express.Router();
+const cart = Router();
 
 cart.get("/", (req, res) => {
   res.status(200).json(users);
@@ -88,4 +88,4 @@ const users = [
   },
 ];
 
-export { cart };
+export default cart;

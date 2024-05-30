@@ -1,12 +1,12 @@
-import express from "express";
+import { Router } from "express";
 
-const product = express.Router();
+const product = Router();
 
 product.get("/", (req, res) => {
   res.status(200).json(products);
 });
 
-product.get("/q",  (req, res) => {
+product.get("/q", (req, res) => {
   const id = req.query.ID;
   const nombre = req.query.nombre;
   const precio = req.query.precio;
@@ -119,4 +119,4 @@ const products = [
   },
 ];
 
-export { product };
+export default product;
